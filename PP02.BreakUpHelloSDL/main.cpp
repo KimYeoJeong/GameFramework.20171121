@@ -29,6 +29,9 @@ void render()
 
 	SDL_RenderPresent(g_pRenderer);
 
+
+	SDL_Delay(10000);
+	SDL_Quit();
 }
 void update() {}
 void handleEvent() {}
@@ -50,8 +53,6 @@ int main(int argc,char* argv[])
 	while (g_bRunning) {
 		render();
 	}
-
-	SDL_Quit();
-	return 0;
+		return 0;
 	
 }
