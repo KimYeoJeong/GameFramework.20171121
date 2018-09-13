@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PP01.HelloSDL", "PP01.Hello
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PP02.BreakUpHelloSDL", "PP02.BreakUpHelloSDL\PP02.BreakUpHelloSDL.vcxproj", "{59864E65-2900-46ED-A22C-D5363AF0B604}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PP03.GameClass", "PP03.GameClass\PP03.GameClass.vcxproj", "{9A2F596B-8145-4168-BE2C-8F203F003348}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PP04.BasicDrawing", "PP04.BasicDrawing\PP04.BasicDrawing.vcxproj", "{2D260C1A-CF96-455C-B000-A7DBFB425FCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +35,22 @@ Global
 		{59864E65-2900-46ED-A22C-D5363AF0B604}.Release|x64.Build.0 = Release|x64
 		{59864E65-2900-46ED-A22C-D5363AF0B604}.Release|x86.ActiveCfg = Release|Win32
 		{59864E65-2900-46ED-A22C-D5363AF0B604}.Release|x86.Build.0 = Release|Win32
+		{9A2F596B-8145-4168-BE2C-8F203F003348}.Debug|x64.ActiveCfg = Debug|x64
+		{9A2F596B-8145-4168-BE2C-8F203F003348}.Debug|x64.Build.0 = Debug|x64
+		{9A2F596B-8145-4168-BE2C-8F203F003348}.Debug|x86.ActiveCfg = Debug|Win32
+		{9A2F596B-8145-4168-BE2C-8F203F003348}.Debug|x86.Build.0 = Debug|Win32
+		{9A2F596B-8145-4168-BE2C-8F203F003348}.Release|x64.ActiveCfg = Release|x64
+		{9A2F596B-8145-4168-BE2C-8F203F003348}.Release|x64.Build.0 = Release|x64
+		{9A2F596B-8145-4168-BE2C-8F203F003348}.Release|x86.ActiveCfg = Release|Win32
+		{9A2F596B-8145-4168-BE2C-8F203F003348}.Release|x86.Build.0 = Release|Win32
+		{2D260C1A-CF96-455C-B000-A7DBFB425FCC}.Debug|x64.ActiveCfg = Debug|x64
+		{2D260C1A-CF96-455C-B000-A7DBFB425FCC}.Debug|x64.Build.0 = Debug|x64
+		{2D260C1A-CF96-455C-B000-A7DBFB425FCC}.Debug|x86.ActiveCfg = Debug|Win32
+		{2D260C1A-CF96-455C-B000-A7DBFB425FCC}.Debug|x86.Build.0 = Debug|Win32
+		{2D260C1A-CF96-455C-B000-A7DBFB425FCC}.Release|x64.ActiveCfg = Release|x64
+		{2D260C1A-CF96-455C-B000-A7DBFB425FCC}.Release|x64.Build.0 = Release|x64
+		{2D260C1A-CF96-455C-B000-A7DBFB425FCC}.Release|x86.ActiveCfg = Release|Win32
+		{2D260C1A-CF96-455C-B000-A7DBFB425FCC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
