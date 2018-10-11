@@ -32,8 +32,8 @@ bool Game::init(const char* title, int xpos, int ypos,
 void Game::render()
 {
     SDL_RenderClear(m_pRenderer);
-    //m_textureManager.draw("animate", 0, 0, 128, 82, m_pRenderer);
-    m_textureManager.drawFrame("animate", 0, 0, 128, 82, 1, m_currentFrame, m_pRenderer);
+    m_textureManager.draw("animate", 0, 0, 128, 82, m_pRenderer);
+    //m_textureManager.drawFrame("animate", 0, 0, 128, 82, 1, m_currentFrame, m_pRenderer);
     m_textureManager.drawFrame("animate", 100, 100, 128, 82, 1, m_currentFrame, m_pRenderer);
     SDL_RenderPresent(m_pRenderer);
 }
