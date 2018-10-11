@@ -15,6 +15,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PP05.AnimatingSprite", "PP0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PP06.ImageSprite", "PP06.ImageSprite\PP06.ImageSprite.vcxproj", "{3BEAF8C5-2D70-4728-A8DE-40B6A0C0E58C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PP07.TextureManager", "PP07.TextureManager\PP07.TextureManager.vcxproj", "{0AD2E900-2C43-4ECB-A51C-318C3CE6080B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PP08.SingletonTM", "PP08.SingletonTM\PP08.SingletonTM.vcxproj", "{AA2DC444-E19A-4BB1-B3C0-CEF676978B4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +75,22 @@ Global
 		{3BEAF8C5-2D70-4728-A8DE-40B6A0C0E58C}.Release|x64.Build.0 = Release|x64
 		{3BEAF8C5-2D70-4728-A8DE-40B6A0C0E58C}.Release|x86.ActiveCfg = Release|Win32
 		{3BEAF8C5-2D70-4728-A8DE-40B6A0C0E58C}.Release|x86.Build.0 = Release|Win32
+		{0AD2E900-2C43-4ECB-A51C-318C3CE6080B}.Debug|x64.ActiveCfg = Debug|x64
+		{0AD2E900-2C43-4ECB-A51C-318C3CE6080B}.Debug|x64.Build.0 = Debug|x64
+		{0AD2E900-2C43-4ECB-A51C-318C3CE6080B}.Debug|x86.ActiveCfg = Debug|Win32
+		{0AD2E900-2C43-4ECB-A51C-318C3CE6080B}.Debug|x86.Build.0 = Debug|Win32
+		{0AD2E900-2C43-4ECB-A51C-318C3CE6080B}.Release|x64.ActiveCfg = Release|x64
+		{0AD2E900-2C43-4ECB-A51C-318C3CE6080B}.Release|x64.Build.0 = Release|x64
+		{0AD2E900-2C43-4ECB-A51C-318C3CE6080B}.Release|x86.ActiveCfg = Release|Win32
+		{0AD2E900-2C43-4ECB-A51C-318C3CE6080B}.Release|x86.Build.0 = Release|Win32
+		{AA2DC444-E19A-4BB1-B3C0-CEF676978B4A}.Debug|x64.ActiveCfg = Debug|x64
+		{AA2DC444-E19A-4BB1-B3C0-CEF676978B4A}.Debug|x64.Build.0 = Debug|x64
+		{AA2DC444-E19A-4BB1-B3C0-CEF676978B4A}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA2DC444-E19A-4BB1-B3C0-CEF676978B4A}.Debug|x86.Build.0 = Debug|Win32
+		{AA2DC444-E19A-4BB1-B3C0-CEF676978B4A}.Release|x64.ActiveCfg = Release|x64
+		{AA2DC444-E19A-4BB1-B3C0-CEF676978B4A}.Release|x64.Build.0 = Release|x64
+		{AA2DC444-E19A-4BB1-B3C0-CEF676978B4A}.Release|x86.ActiveCfg = Release|Win32
+		{AA2DC444-E19A-4BB1-B3C0-CEF676978B4A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
