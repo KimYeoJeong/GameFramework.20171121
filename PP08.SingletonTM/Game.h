@@ -22,6 +22,7 @@ private:
     bool m_bRunning;
 
     int m_currentFrame;
+	//int m_currentFrame1;
 
 
 

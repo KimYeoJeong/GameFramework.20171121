@@ -40,7 +40,7 @@ void Game::render()
 
     SDL_RenderClear(m_pRenderer);
     TheTextureManager::Instance()->draw("animate", 0, 0, 128, 82,m_pRenderer);
-
+	//TheTextureManager::Instance()->drawFrame("animate", 0, 0, 128, 82, 1, m_currentFrame1, m_pRenderer);
     TheTextureManager::Instance()->drawFrame("animate", 100, 100,128, 82, 1, m_currentFrame, m_pRenderer);
     SDL_RenderPresent(m_pRenderer);
 }
@@ -48,6 +48,7 @@ void Game::render()
 void Game::update()
 {
     m_currentFrame = int(((SDL_GetTicks() / 100) % 6));
+	//m_currentFrame1 = int(((SDL_GetTicks() / 200) % 6));
 }
 
 void Game::clean()
