@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "homework", "homework\homewo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PP09.Inheritance", "PP09.Inheritance\PP09.Inheritance.vcxproj", "{82154619-8833-4776-9C78-DE91F0E47E35}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PP10.Polymorphism", "PP10.Polymorphism\PP10.Polymorphism.vcxproj", "{A68845AA-7FF2-4AE5-9AB2-F89907963F1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{82154619-8833-4776-9C78-DE91F0E47E35}.Release|x64.Build.0 = Release|x64
 		{82154619-8833-4776-9C78-DE91F0E47E35}.Release|x86.ActiveCfg = Release|Win32
 		{82154619-8833-4776-9C78-DE91F0E47E35}.Release|x86.Build.0 = Release|Win32
+		{A68845AA-7FF2-4AE5-9AB2-F89907963F1D}.Debug|x64.ActiveCfg = Debug|x64
+		{A68845AA-7FF2-4AE5-9AB2-F89907963F1D}.Debug|x64.Build.0 = Debug|x64
+		{A68845AA-7FF2-4AE5-9AB2-F89907963F1D}.Debug|x86.ActiveCfg = Debug|Win32
+		{A68845AA-7FF2-4AE5-9AB2-F89907963F1D}.Debug|x86.Build.0 = Debug|Win32
+		{A68845AA-7FF2-4AE5-9AB2-F89907963F1D}.Release|x64.ActiveCfg = Release|x64
+		{A68845AA-7FF2-4AE5-9AB2-F89907963F1D}.Release|x64.Build.0 = Release|x64
+		{A68845AA-7FF2-4AE5-9AB2-F89907963F1D}.Release|x86.ActiveCfg = Release|Win32
+		{A68845AA-7FF2-4AE5-9AB2-F89907963F1D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
