@@ -19,6 +19,11 @@ bool Game::init(const char* title, int xpos, int ypos,
 			m_pRenderer = SDL_CreateRenderer(m_pWindow, -1, 0);
 		}
 
+		if (m_pRenderer == 0)
+		{
+			return false;
+		}
+
 		m_bRunning = true;
 
 		// load 부분 대치   
@@ -57,7 +62,7 @@ void Game::render()
 	for (std::vector<GameObject*>::size_type i = 0;
 		i != m_gameObjects.size(); i++)
 	{
-		m_gameObjects[i]->draw(m_pRenderer);
+		m_gameObjects[i]->draw();
 	}
 	SDL_RenderPresent(m_pRenderer); // draw to the screen
 }

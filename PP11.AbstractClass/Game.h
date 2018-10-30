@@ -14,11 +14,6 @@ private:
 	// create the s_pInstance member variable
 	static Game* s_pInstance;
 	// create the typedef
-	
-
-
-	
-
 
 	SDL_Window * m_pWindow;
 	SDL_Renderer* m_pRenderer;
