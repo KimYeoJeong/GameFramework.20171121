@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PP13.KInputHandler", "PP13.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PP14.MinputHandler", "PP14.MinputHandler\PP14.MinputHandler.vcxproj", "{B291744C-3CE7-4EDA-AC00-AB8AF4796130}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "homework2", "homework2\homework2.vcxproj", "{00FB88BC-38B6-488B-AA70-4FE3375FD307}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{B291744C-3CE7-4EDA-AC00-AB8AF4796130}.Release|x64.Build.0 = Release|x64
 		{B291744C-3CE7-4EDA-AC00-AB8AF4796130}.Release|x86.ActiveCfg = Release|Win32
 		{B291744C-3CE7-4EDA-AC00-AB8AF4796130}.Release|x86.Build.0 = Release|Win32
+		{00FB88BC-38B6-488B-AA70-4FE3375FD307}.Debug|x64.ActiveCfg = Debug|x64
+		{00FB88BC-38B6-488B-AA70-4FE3375FD307}.Debug|x64.Build.0 = Debug|x64
+		{00FB88BC-38B6-488B-AA70-4FE3375FD307}.Debug|x86.ActiveCfg = Debug|Win32
+		{00FB88BC-38B6-488B-AA70-4FE3375FD307}.Debug|x86.Build.0 = Debug|Win32
+		{00FB88BC-38B6-488B-AA70-4FE3375FD307}.Release|x64.ActiveCfg = Release|x64
+		{00FB88BC-38B6-488B-AA70-4FE3375FD307}.Release|x64.Build.0 = Release|x64
+		{00FB88BC-38B6-488B-AA70-4FE3375FD307}.Release|x86.ActiveCfg = Release|Win32
+		{00FB88BC-38B6-488B-AA70-4FE3375FD307}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

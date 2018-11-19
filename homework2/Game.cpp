@@ -5,6 +5,8 @@
 #include "GameObject.h"
 #include "TextureManager.h"
 #include "InputHandler.h"
+#include "bullet.h"
+#include "Wall.h"
 using namespace std;
 
 Game* Game::s_pInstance = 0;
@@ -32,10 +34,17 @@ bool Game::init(const char* title, int xpos, int ypos,
 		{
 			return false;
 		}
+
+
+		TheTextureManager::Instance()->load("assets/circle1.png", "animate1", m_pRenderer);
+		TheTextureManager::Instance()->load("assets/wall.png", "animate2", m_pRenderer);
+
+
+		
 		m_gameObjects.push_back(new Player(new LoaderParams(100, 100, 128, 82, "animate")));
 		m_gameObjects.push_back(new Enemy(new LoaderParams(300, 300, 128, 82, "animate")));
-
-
+		m_gameObjects.push_back(new bullet(new LoaderParams(130, 100, 100, 100, "animate1")));
+		m_gameObjects.push_back(new Wall(new LoaderParams(450, 50, 200, 200, "animate2"))); 
 	}
 	else {
 		return false; // sdl could not initialize

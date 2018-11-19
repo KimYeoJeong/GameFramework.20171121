@@ -15,7 +15,7 @@ class InputHandler
 	const Uint8* m_keystates;
 
 public:
-	static InputHandler* Instance()
+	static InputHandler* Instance()			//객체를 하나만 생성하기위해 싱글톤 패턴을 사용
 	{
 		if (s_pInstance == 0) {
 			s_pInstance = new InputHandler();

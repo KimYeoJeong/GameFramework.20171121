@@ -4,6 +4,7 @@
 #include "Player.h"
 #include "Enemy.h"
 #include <vector>
+#include "bullet.h"
 
 
 class Game
@@ -11,12 +12,17 @@ class Game
 private:
 
 	Game() {};
+	// create the s_pInstance member variable
 	static Game* s_pInstance;
+	// create the typedef
 
 	SDL_Window * m_pWindow;
 	SDL_Renderer* m_pRenderer;
 	bool m_bRunning;
 	int m_currentFrame;
+
+	//GameObject m_go;
+	//Player m_player;
 
 	std::vector<GameObject*> m_gameObjects;
 
@@ -25,18 +31,23 @@ private:
 	GameObject* m_enemy;
 
 public:
+	//bool bulletready=false;
+
+	bullet* bullet_;
+
+	//Game() {}
+	//~Game() {}
 	bool init(const char* title, int xpos, int ypos,
 		int width, int height, bool fullscreen);
-	void render();		//m_gameobject의 저장되어있는 데이터들을 그려주는함수
-	void update();		//매 프레임마다 동작하는 함수
-	void handleEvents();	//조작을 담당하는 함수
+	void render();
+	void update();
+	void handleEvents();
 	void clean();
-	void quit();			//꺼주는 함수
+	void quit();
 	bool running() { return m_bRunning; }
 
 	SDL_Renderer* getRenderer() const { return m_pRenderer; }
-
-	static Game* Instance()					//객체를 하나만 생성하기위해 싱글톤 패턴을 사용
+	static Game* Instance()
 	{
 		if (s_pInstance == 0)
 		{
@@ -45,6 +56,10 @@ public:
 		}
 		return s_pInstance;
 	}
+
+
+
+
 
 };
 

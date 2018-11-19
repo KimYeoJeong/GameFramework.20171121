@@ -7,11 +7,10 @@ class TextureManager {
 private:
 	static TextureManager* s_pInstance;
 
-	TextureManager() {} //생성자
-	std::map<std::string, SDL_Texture*> m_textureMap;
+	TextureManager() {}
 
 public:
-	~TextureManager() {}	//소멸자
+	~TextureManager() {}
 
 	bool load(std::string fileName, std::string id, SDL_Renderer* pRenderer);
 
@@ -22,7 +21,7 @@ public:
 		int currentRow, int currentFrame,
 		SDL_Renderer* pRenderer, SDL_RendererFlip flip = SDL_FLIP_NONE);
 
-	static TextureManager* Instance()		//객체를 하나만 생성하기위해 싱글톤 패턴을 사용
+	static TextureManager* Instance()
 	{
 		if (s_pInstance == 0)
 		{
@@ -32,6 +31,9 @@ public:
 		return s_pInstance;
 	}
 
+private:
+
+	std::map<std::string, SDL_Texture*> m_textureMap;
 };
 
 typedef TextureManager TheTextureManager;
